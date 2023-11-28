@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Title</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100vh;
+            background: linear-gradient(180deg, #F0E5D1 0%, #D9D9D9 100%);
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 500px;
+            margin-left: 450px;
+        }
+
+        .button {
+            width: 233px;
+            height: 108px;
+            background: white;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 15px;
+            display: inline-flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        .button:hover {
+            transform: scale(1.05);
+        }
+
+        .go-back {
+            border: 2px #6E896A solid;
+        }
+
+        .confirm-submit {
+            border: 2px #EE892F solid;
+            margin-right:450px;
+        }
+
+        .button-text {
+            text-align: center;
+            color: black;
+            font-size: 25px;
+            font-family: JejuGothic;
+            font-weight: 400;
+            word-wrap: break-word;
+        }
+
+        .main-container {
+            position: relative;
+        }
+
+        .confirmation-box {
+            width: 503px;
+            height: 225px;
+            padding-left: 24px;
+            padding-right: 24px;
+            padding-top: 18px;
+            left: 468px;
+            top: 200px;
+            position: absolute;
+            background: #6E896A;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 63px;
+            overflow: hidden;
+            justify-content: center;
+            align-items: center;
+            display: inline-flex;
+        }
+
+        .confirmation-text {
+            width: 455px;
+            height: 189px;
+            text-align: center;
+            color: black;
+            font-size: 40px;
+            font-family: ABeeZee;
+            font-weight: 400;
+            word-wrap: break-word;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <div style="width: 100%; height: 100vh; position: relative; background: linear-gradient(180deg, #F0E5D1 0%, #D9D9D9 100%); border: 1px rgb(160, 18, 18) solid">
+        <div style="width: 100%; max-width: 1600px; height: 118px; margin: 0 auto; position: absolute; background: rgba(110, 137, 106, 0); border: 1px rgb(189, 113, 20) solid"></div>
+        <div style="width: 15%; height: 66px; left: 3%; top: 34px; position: absolute; text-align: center"><span style="color: black; font-size: 20px; font-family: Kaisei HarunoUmi; font-weight: 700; word-wrap: break-word">Kenya<br/> </span><span style="color: #842323; font-size: 20px; font-family: Kaisei HarunoUmi; font-weight: 700; word-wrap: break-word">Police Service</span></div>
+        <img style="width: 71px; height: 61px; left: 2%; top: 29px; position: absolute; mix-blend-mode: darken" src="images/logo.png"/>
+        <a href="menupage.html" style="left: 60%; top: 67px; position: absolute; text-align: center; color: black; font-size: 20px; font-family: Kaisei HarunoUmi; font-weight: 700; word-wrap: break-word">
+            Home
+          </a>        <div style="left: 1114px; top: 67px; position: absolute; text-align: center; color: black; font-size: 20px; font-family: Kaisei HarunoUmi; font-weight: 700; word-wrap: break-word">Help</div>
+        <div style="left: 982px; top: 67px; position: absolute; text-align: center; color: black; font-size: 20px; font-family: Kaisei HarunoUmi; font-weight: 700; word-wrap: break-word">Contact</div>
+        <img style="width: 75px; height: 78px; left: 1240px; top: 29px; position: absolute; mix-blend-mode: multiply; border-radius: 50px; border: 1px black solid" src="images/usericon.png" />
+    
+
+            <div class="button-container">
+                <a href="time.html" class="button go-back">
+                    <div class="button-text">GO BACK<br/>AND REVIEW</div>
+                </a>
+
+                <a href="success.html" class="button confirm-submit">
+                    <div class="button-text">CONFIRM AND <br/>SUBMIT</div>
+                </a>
+            </div>
+
+            <div class="confirmation-box">
+                <div class="confirmation-text">ARE YOU SURE YOU WOULD LIKE TO SUBMIT?</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
